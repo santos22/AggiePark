@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AggiePark</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="android_names">
+        <item>Lot 47/51</item>
+        <item>Lot 50</item>
+        <item>Lot 54</item>
+        <item>Lot 100</item>
+        <item>Donut</item>
+        <item>Eclair</item>
+        <item>Froyo</item>
+        <item>Gingerbread</item>
+        <item>Honeycomb</item>
+        <item>Ice Cream Sandwich</item>
+        <item>Jelly Bean</item>
+    </string-array>
+
+    <color name="maroon">#800000</color>
+
+    <string name="title_activity_anything">Anything</string>
+    <string name="title_activity_map_view2">MapView2</string>
+
+</resources>
