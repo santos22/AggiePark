@@ -1,5 +1,6 @@
 package com.example.aggiepark;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.os.Bundle;
 import android.webkit.WebSettings;
@@ -10,7 +11,7 @@ public class MapView1 extends Activity {
 	
 	WebView myWebView1;
 
-    @Override
+    @SuppressLint("SetJavaScriptEnabled") @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map_view1);

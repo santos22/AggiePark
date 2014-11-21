@@ -37,6 +37,14 @@ public class MainPark extends ListActivity {
     		Intent intent2 = new Intent(MainPark.this, MapView2.class);
     		startActivity(intent2);
     		break;
+    	case 2:
+    		Intent intent3 = new Intent(MainPark.this, MapView3.class);
+    		startActivity(intent3);
+    		break;
+    	case 3:
+    		Intent intent4 = new Intent(MainPark.this, MapView4.class);
+    		startActivity(intent4);
+    		break;
     	default: Toast.makeText(this, "Didn't work", Toast.LENGTH_LONG).show();
     	}
     }

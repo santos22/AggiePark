@@ -249,7 +249,7 @@ int id action_context_bar 0x7f05001d
 int id action_menu_divider 0x7f050016
 int id action_menu_presenter 0x7f050017
 int id action_mode_close_button 0x7f050024
-int id action_settings 0x7f05003e
+int id action_settings 0x7f050040
 int id activity_chooser_view_content 0x7f050025
 int id always 0x7f05000b
 int id beginning 0x7f050011
@@ -300,6 +300,8 @@ int id up 0x7f050021
 int id useLogo 0x7f050003
 int id webview1 0x7f05003c
 int id webview2 0x7f05003d
+int id webview3 0x7f05003e
+int id webview4 0x7f05003f
 int id withText 0x7f05000c
 int integer abc_max_action_buttons 0x7f090000
 int layout abc_action_bar_decor 0x7f030000
@@ -328,8 +330,10 @@ int layout abc_search_view 0x7f030016
 int layout abc_simple_decor 0x7f030017
 int layout activity_map_view1 0x7f030018
 int layout activity_map_view2 0x7f030019
-int layout map_one 0x7f03001a
-int layout support_simple_spinner_dropdown_item 0x7f03001b
+int layout activity_map_view3 0x7f03001a
+int layout activity_map_view4 0x7f03001b
+int layout map_one 0x7f03001c
+int layout support_simple_spinner_dropdown_item 0x7f03001d
 int menu anything 0x7f0d0000
 int menu main_park 0x7f0d0001
 int menu map_view2 0x7f0d0002
@@ -349,8 +353,10 @@ int string abc_shareactionprovider_share_with_application 0x7f0a000b
 int string action_settings 0x7f0a000f
 int string app_name 0x7f0a000d
 int string hello_world 0x7f0a000e
-int string title_activity_anything 0x7f0a0010
+int string title_activity_map_view1 0x7f0a0010
 int string title_activity_map_view2 0x7f0a0011
+int string title_activity_map_view3 0x7f0a0012
+int string title_activity_map_view4 0x7f0a0013
 int style AppBaseTheme 0x7f0b008b
 int style AppTheme 0x7f0b008c
 int style TextAppearance_AppCompat_Base_CompactMenu_Dialog 0x7f0b0063
