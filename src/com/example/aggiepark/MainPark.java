@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 public class MainPark extends ListActivity {
 
@@ -76,7 +77,7 @@ public class MainPark extends ListActivity {
     		Intent intent12 = new Intent(MainPark.this, MapView12.class);
     		startActivity(intent12);
     		break;
-//    	default: Toast.makeText(this, "Didn't work", Toast.LENGTH_LONG).show();
+    	default: Toast.makeText(this, "Toast", Toast.LENGTH_LONG).show();
     	}
     }
 }

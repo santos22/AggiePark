@@ -6,18 +6,19 @@
     <string name="action_settings">Settings</string>
 
     <string-array name="android_names">
-        <item>Lot 47/51</item>
-        <item>Lot 50</item>
-        <item>Lot 54</item>
-        <item>Lot 100</item>
-        <item>Lot 55</item>
-        <item>Lot 19</item>
-        <item>Lot 61</item>
-        <item>Reed Arena</item>
-        <item>West Campus Garage</item>
-        <item>North Campus Garage</item>
+        <item>Lot 47/51 - V N</item>
+        <item>Lot 50 - N</item>
+        <item>Lot 54 - N</item>
+        <item>Lot 100 - V N</item>
+        <item>Lot 55 - N</item>
+        <item>Lot 19 - N</item>
+        <item>Lot 61 - V</item>
+        <item>Reed Arena - N</item>
+        <item>West Campus Garage - V N</item>
+        <item>North Campus Garage - V</item>
         <item>South Campus Garage</item>
-        <item>Central Campus Garage</item>
+        <item>Central Campus Garage - V</item>
+        <item>Check online for rates!</item>
     </string-array>
 
     <string name="title_activity_map_view1">Lot 47/51</string>
