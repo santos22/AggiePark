@@ -6,10 +6,10 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.aggiepark.MapView4" >
+    tools:context="com.example.aggiepark.MapView6" >
     
     <WebView
-	    android:id="@+id/webview4"
+	    android:id="@+id/webview6"
 	    android:layout_width="fill_parent"
 	    android:layout_height="fill_parent" />
 

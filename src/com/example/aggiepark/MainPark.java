@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.Toast;
 
 public class MainPark extends ListActivity {
 
@@ -45,7 +44,39 @@ public class MainPark extends ListActivity {
     		Intent intent4 = new Intent(MainPark.this, MapView4.class);
     		startActivity(intent4);
     		break;
-    	default: Toast.makeText(this, "Didn't work", Toast.LENGTH_LONG).show();
+    	case 4: 
+    		Intent intent5 = new Intent(MainPark.this, MapView5.class);
+    		startActivity(intent5);
+    		break;
+    	case 5:
+    		Intent intent6 = new Intent(MainPark.this, MapView6.class);
+    		startActivity(intent6);
+    		break;
+    	case 6:
+    		Intent intent7 = new Intent(MainPark.this, MapView7.class);
+    		startActivity(intent7);
+    		break;
+    	case 7:
+    		Intent intent8 = new Intent(MainPark.this, MapView8.class);
+    		startActivity(intent8);
+    		break;
+    	case 8: 
+    		Intent intent9 = new Intent(MainPark.this, MapView9.class);
+    		startActivity(intent9);
+    		break;
+    	case 9:
+    		Intent intent10 = new Intent(MainPark.this, MapView10.class);
+    		startActivity(intent10);
+    		break;
+    	case 10:
+    		Intent intent11 = new Intent(MainPark.this, MapView11.class);
+    		startActivity(intent11);
+    		break;
+    	case 11:
+    		Intent intent12 = new Intent(MainPark.this, MapView12.class);
+    		startActivity(intent12);
+    		break;
+//    	default: Toast.makeText(this, "Didn't work", Toast.LENGTH_LONG).show();
     	}
     }
 }

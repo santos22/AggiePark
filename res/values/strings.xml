@@ -10,20 +10,27 @@
         <item>Lot 50</item>
         <item>Lot 54</item>
         <item>Lot 100</item>
-        <item>Donut</item>
-        <item>Eclair</item>
-        <item>Froyo</item>
-        <item>Gingerbread</item>
-        <item>Honeycomb</item>
-        <item>Ice Cream Sandwich</item>
-        <item>Jelly Bean</item>
+        <item>Lot 55</item>
+        <item>Lot 19</item>
+        <item>Lot 61</item>
+        <item>Reed Arena</item>
+        <item>West Campus Garage</item>
+        <item>North Campus Garage</item>
+        <item>South Campus Garage</item>
+        <item>Central Campus Garage</item>
     </string-array>
-
-    <color name="maroon">#800000</color>
 
     <string name="title_activity_map_view1">Lot 47/51</string>
     <string name="title_activity_map_view2">Lot 50</string>
     <string name="title_activity_map_view3">Lot 54</string>
     <string name="title_activity_map_view4">Lot 100</string>
+    <string name="title_activity_map_view5">Lot 55</string>
+    <string name="title_activity_map_view6">Lot 19</string>
+    <string name="title_activity_map_view7">Lot 61</string>
+    <string name="title_activity_map_view8">Reed Arena</string>
+    <string name="title_activity_map_view9">WGG</string>
+    <string name="title_activity_map_view10">NCG</string>
+    <string name="title_activity_map_view11">SCG</string>
+    <string name="title_activity_map_view12">CCG</string>
 
 </resources>

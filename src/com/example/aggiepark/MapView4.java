@@ -19,9 +19,9 @@ public class MapView4 extends Activity {
         myWebView4 = (WebView) findViewById(R.id.webview4); // WebView in xml
         myWebView4.setWebViewClient(new WebViewClient()); // opens map in app
         
-        WebSettings webSettings3 = myWebView4.getSettings();
+        WebSettings webSettings4 = myWebView4.getSettings();
         
-        webSettings3.setJavaScriptEnabled(true);
+        webSettings4.setJavaScriptEnabled(true);
         
         myWebView4.loadUrl("http://tinyurl.com/ky93m7s"); // Lot 54
     }
