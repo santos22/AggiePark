@@ -14,7 +14,8 @@ public class MainPark extends ListActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.map_one);
-             
+        
+        // retrieves values from string array defined in strings xml
         String[] mAndroidNames = getResources().getStringArray(R.array.android_names);
         
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, mAndroidNames);
@@ -25,6 +26,7 @@ public class MainPark extends ListActivity {
         listview.setAdapter(adapter);  
     }
     
+    // method that creates new intents for each item clicked within the listview
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {
     	
