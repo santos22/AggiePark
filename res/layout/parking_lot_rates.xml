@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:stretchColumns="1">
+    
+	<View
+        android:layout_height="2dip"
+        android:background="#f1f075" />
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/day_time"
+            android:textColor="@color/text_color"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/time_1"
+            android:textColor="@color/text_color"
+            android:gravity="end"
+            android:padding="3dip" />
+    </TableRow>
+    
+    <View
+        android:layout_height="2dip"
+        android:background="#f1f075" />
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/time_1"
+            android:textColor="@color/text_color"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/rate_1"
+            android:textColor="@color/text_color"
+            android:gravity="end"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/time_2"
+            android:textColor="@color/text_color"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/rate_2"
+            android:textColor="@color/text_color"
+            android:gravity="end"
+            android:padding="3dip" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/time_3"
+            android:textColor="@color/text_color"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/rate_3"
+            android:textColor="@color/text_color"
+            android:gravity="end"
+            android:padding="3dip" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/time_4"
+            android:textColor="@color/text_color"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/rate_4"
+            android:textColor="@color/text_color"
+            android:gravity="end"
+            android:padding="3dip" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/time_5"
+            android:textColor="@color/text_color"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/rate_5"
+            android:textColor="@color/text_color"
+            android:gravity="end"
+            android:padding="3dip" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/time_6"
+            android:textColor="@color/text_color"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/rate_6"
+            android:textColor="@color/text_color"
+            android:gravity="end"
+            android:padding="3dip" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#f1f075" />
+    
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/night_rates"
+            android:textColor="@color/text_color"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/night_time"
+            android:textColor="@color/text_color"
+            android:gravity="end"
+            android:padding="3dip" />
+    </TableRow>
+    
+	<View
+        android:layout_height="2dip"
+        android:background="#f1f075" />
+	
+	<TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/night"
+            android:textColor="@color/text_color"
+            android:padding="3dip" />
+    </TableRow>
+
+</TableLayout>
