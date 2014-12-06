@@ -18,8 +18,32 @@
         <item>North Campus Garage - V</item>
         <item>South Campus Garage</item>
         <item>Central Campus Garage - V</item>
-        <item>Check online for rates!</item>
+        <item>V = Visitors, N = Night permit</item>
     </string-array>
+    
+    <string name="day_rates">Daytime Rates</string>
+    <string name="day_time">6am - 4:59pm</string>
+    
+    <string name="night_rates">Night Rates</string>
+    <string name="night_time">5pm - 5:59am</string>
+    
+    <string name="time_1">Entry - 1 hr</string>
+    <string name="time_2">1 hr 1 min - 1 hr 59 min</string>
+    <string name="time_3">2 hrs - 2 hrs 29 min</string>
+    <string name="time_4">2.5 hrs - 2 hrs 59 min</string>
+    <string name="time_5">3 hrs - 3hrs 29 min</string>
+    <string name="time_6">Each additional .5 hour</string>
+    
+    <string name="rate_1">$2</string>
+    <string name="rate_2">$4</string>
+    <string name="rate_3">$5</string>
+    <string name="rate_4">$6</string>
+    <string name="rate_5">$6.50</string>
+    <string name="rate_6">$.50</string>
+    <string name="night">$.50 per hour</string>
+    
+    <color name="bg_color">#800000</color>
+    <color name="text_color">#ffffff</color>
 
     <string name="title_activity_map_view1">Lot 47/51</string>
     <string name="title_activity_map_view2">Lot 50</string>
@@ -33,5 +57,6 @@
     <string name="title_activity_map_view10">NCG</string>
     <string name="title_activity_map_view11">SCG</string>
     <string name="title_activity_map_view12">CCG</string>
+    <string name="title_activity_parking">Parking Information</string>
 
 </resources>

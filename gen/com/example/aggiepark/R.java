@@ -861,10 +861,12 @@ containing a value of this type.
         public static final int abc_split_action_bar_is_narrow=0x7f060002;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f070003;
+        public static final int abc_search_url_text_holo=0x7f070005;
         public static final int abc_search_url_text_normal=0x7f070000;
         public static final int abc_search_url_text_pressed=0x7f070002;
         public static final int abc_search_url_text_selected=0x7f070001;
+        public static final int bg_color=0x7f070003;
+        public static final int text_color=0x7f070004;
     }
     public static final class dimen {
         /**  Default height of an action bar. 
@@ -1221,7 +1223,8 @@ containing a value of this type.
         public static final int activity_map_view8=0x7f030022;
         public static final int activity_map_view9=0x7f030023;
         public static final int map_one=0x7f030024;
-        public static final int support_simple_spinner_dropdown_item=0x7f030025;
+        public static final int parking_lot_rates=0x7f030025;
+        public static final int support_simple_spinner_dropdown_item=0x7f030026;
     }
     public static final class menu {
         public static final int anything=0x7f0d0000;
@@ -1271,19 +1274,37 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
         public static final int action_settings=0x7f0a000f;
         public static final int app_name=0x7f0a000d;
+        public static final int day_rates=0x7f0a0010;
+        public static final int day_time=0x7f0a0011;
         public static final int hello_world=0x7f0a000e;
-        public static final int title_activity_map_view1=0x7f0a0010;
-        public static final int title_activity_map_view10=0x7f0a0019;
-        public static final int title_activity_map_view11=0x7f0a001a;
-        public static final int title_activity_map_view12=0x7f0a001b;
-        public static final int title_activity_map_view2=0x7f0a0011;
-        public static final int title_activity_map_view3=0x7f0a0012;
-        public static final int title_activity_map_view4=0x7f0a0013;
-        public static final int title_activity_map_view5=0x7f0a0014;
-        public static final int title_activity_map_view6=0x7f0a0015;
-        public static final int title_activity_map_view7=0x7f0a0016;
-        public static final int title_activity_map_view8=0x7f0a0017;
-        public static final int title_activity_map_view9=0x7f0a0018;
+        public static final int night=0x7f0a0020;
+        public static final int night_rates=0x7f0a0012;
+        public static final int night_time=0x7f0a0013;
+        public static final int rate_1=0x7f0a001a;
+        public static final int rate_2=0x7f0a001b;
+        public static final int rate_3=0x7f0a001c;
+        public static final int rate_4=0x7f0a001d;
+        public static final int rate_5=0x7f0a001e;
+        public static final int rate_6=0x7f0a001f;
+        public static final int time_1=0x7f0a0014;
+        public static final int time_2=0x7f0a0015;
+        public static final int time_3=0x7f0a0016;
+        public static final int time_4=0x7f0a0017;
+        public static final int time_5=0x7f0a0018;
+        public static final int time_6=0x7f0a0019;
+        public static final int title_activity_map_view1=0x7f0a0021;
+        public static final int title_activity_map_view10=0x7f0a002a;
+        public static final int title_activity_map_view11=0x7f0a002b;
+        public static final int title_activity_map_view12=0x7f0a002c;
+        public static final int title_activity_map_view2=0x7f0a0022;
+        public static final int title_activity_map_view3=0x7f0a0023;
+        public static final int title_activity_map_view4=0x7f0a0024;
+        public static final int title_activity_map_view5=0x7f0a0025;
+        public static final int title_activity_map_view6=0x7f0a0026;
+        public static final int title_activity_map_view7=0x7f0a0027;
+        public static final int title_activity_map_view8=0x7f0a0028;
+        public static final int title_activity_map_view9=0x7f0a0029;
+        public static final int title_activity_parking=0x7f0a002d;
     }
     public static final class style {
         /** 
