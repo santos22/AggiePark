@@ -12,11 +12,11 @@
     <TableRow>
         <TextView
             android:layout_column="1"
-            android:text="@string/day_time"
+            android:text="@string/day_rates"
             android:textColor="@color/text_color"
             android:padding="3dip" />
         <TextView
-            android:text="@string/time_1"
+            android:text="@string/day_time"
             android:textColor="@color/text_color"
             android:gravity="end"
             android:padding="3dip" />
