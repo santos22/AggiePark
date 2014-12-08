@@ -19,6 +19,7 @@
         <item>South Campus Garage</item>
         <item>Central Campus Garage - V</item>
         <item>V = Visitors, N = Night permit</item>
+        <item>Click here for more information</item>
     </string-array>
     
     <string name="day_rates">Daytime Rates</string>
