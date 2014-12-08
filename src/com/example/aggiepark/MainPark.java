@@ -78,7 +78,7 @@ public class MainPark extends ListActivity {
     		Intent intent12 = new Intent(MainPark.this, MapView12.class);
     		startActivity(intent12);
     		break;
-    	case 12:
+    	case 13:
     		Intent intent13 = new Intent(MainPark.this, VisitorParking.class);
     		startActivity(intent13);
     		break;
