@@ -14,21 +14,26 @@ public class MainPark extends ListActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.map_one);
         
-        // retrieves values from string array defined in strings xml
+        // retrieves values from string array of parking lots defined in strings xml
         String[] mAndroidNames = getResources().getStringArray(R.array.android_names);
         
+        // adapter converts an ArrayList of objects into View items loaded into the ListView container.
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, mAndroidNames);
         setListAdapter(adapter);
         
+        // show a vertical list of scrollable items for adapter
         final ListView listview = (ListView) findViewById(android.R.id.list);
         
+        // connect this adapter to a ListView to be populated
         listview.setAdapter(adapter);  
     }
     
-    // method that creates new intents for each item clicked within the listview
+    // method that creates new intents for each parking lot map clicked within the listview
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {
     	
+    	// handles item tap and creates a new intent
+    	// to load the map the user wants to view
     	switch(position){
     	case 0: 
     		Intent intent1 = new Intent(MainPark.this, MapView1.class);
